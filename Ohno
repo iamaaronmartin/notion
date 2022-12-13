@@ -1,0 +1,44 @@
+* {
+    font-family: "DegularText-Regular";
+}
+
+div.notion-page-block div.notranslate {
+    font-family: "SwearDisplay-Regular" !important;
+    font-weight: 400 !important;
+}
+
+nav div.notion-outliner-bookmarks-header-container div.notion-outliner-private div.notion-page-block *,
+nav div.notion-outliner-private-header-container div.notion-outliner-private div.notion-page-block * {
+    font-family: "DegularText-Regular" !important;
+    font-weight: 600 !important;
+}
+
+.notion-header-block div div,
+.notion-column-block div div,
+.notion-sub_sub_header-block div div {
+    font-family: "SwearDisplay-Bold" !important;
+}
+
+.notion-callout-block div div {
+    font-family: "DegularText-Regular" !important;
+}
+
+.notion-numbered_list-block div div {
+    font-family: "DegularText-Regular" !important;
+}
+
+.notion-focusable span {
+    font-family: "DegularText-Bold" !important;
+    text-transform: uppercase !important;
+}
+
+.notion-header-block div div,
+.notion-column-block div div,
+.notion-sub_sub_header-block div div {
+    font-family: "SwearDisplay-Bold" !important;
+}
+
+.notion-column-block .notion-bulleted_list-block *,
+.notion-column-block .notion-numbered_list-block * {
+    font-family: "DegularText-Regular" !important;
+}
