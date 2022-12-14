@@ -42,3 +42,195 @@ nav div.notion-outliner-private-header-container div.notion-outliner-private div
 .notion-column-block .notion-numbered_list-block * {
     font-family: "DegularText-Regular" !important;
 }
+
+
+
+/* Custom icons for specific URLs ============================================================== */
+
+a.notion-link-token[href^="https://ridgelineapps.atlassian.net/wiki/"]::before {
+    background-image: url("https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2018-08-02/411333418582_25121c9357c97c58ff9b_512.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://podcasts.apple.com/"]::before {
+    background-image: url("https://www.apple.com/v/apple-podcasts/b/images/overview/hero_icon__c135x5gz14mu_large_2x.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://ridgelineapps.atlassian.net/browse/"]::before {
+    background-image: url("https://wac-cdn-2.atlassian.com/image/upload/f_auto,q_auto/dam/jcr:9bf17e0a-6c3c-499d-82f4-b8e426853db6/logos-jira%20software-icon-gradient-blue.svg?cdnVersion=1641");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://docs.google.com/document/"]::before {
+    background-image: url("https://ssl.gstatic.com/docs/documents/images/kix-favicon7.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://docs.google.com/spreadsheets/"]::before {
+    background-image: url("https://ssl.gstatic.com/docs/spreadsheets/favicon3.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://docs.google.com/presentation/"]::before {
+    background-image: url("https://ssl.gstatic.com/docs/presentations/images/favicon5.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://www.youtube.com/watch"]::before,
+a.notion-link-token[href^="https://youtu.be/"]::before {
+    background-image: url("https://www.youtube.com/s/desktop/07cfff5b/img/favicon_32x32.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://www.figma.com/file/"]::before {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://ridgelineapps.productboard.com/"]::before {
+    background-image: url("https://cdn.productboard.com/nucleus/favicons/favicon-144x144.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://ridgelineapps.atlassian.net/jira/"]::before {
+    background-image: url("https://ridgelineapps.atlassian.net/s/-dtzt95/b/6/e9f7ec37148d498dec163fdd24e2e7c3/_/favicon-software.ico");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
+
+a.notion-link-token[href^="https://ridgelineapps.slack.com/"]::before {
+    background-image: url("https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0px;
+    content: " " !important;
+    display: inline-block;
+    font-size: 14px;
+    height: 16px; /* You must set a specified height */
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+    width: 16px;
+}
